@@ -1,0 +1,84 @@
+/* the manifestation.com master style sheet */
+
+
+BODY, div, table, tr, td, th { 
+   color : #fff;
+   background: #000;
+   font-family: Verdana, Arial;
+   font-size: 13px;
+}
+
+small {
+   font-size: 8pt;
+   font-family: verdana, arial;
+}
+
+
+/* -- anchors -- */
+
+a { 
+   color: gold;
+   text-decoration : none; 
+}
+
+a:visited {
+   text-decoration : none;
+}
+
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* -- boxes -- */
+
+.msdcStuff, td.msdcStuff, .msdcStuff td {
+  color      : #000;
+  background : #fc3;
+}
+
+th.msdcStuff, .msdcStuff th {
+  color      : #fff;
+  background : #06f;
+}
+
+td.msdcStuff a {
+  color : #00C;
+}
+
+.msdcTool, td.msdcTool, .msdcTool td {
+  color      : #09f;
+  background : #000;
+}
+
+
+li { margin-left : 0px }
+
+th.msdcTool, .msdcTool th {
+  color      : #f00;
+  background : #000;
+}
+
+blockquote {
+  color      : #630;
+  font-style : italic;
+  
+}
+
+th.neurotoy, .neurotoy th{
+  color      : #fff;
+  background : #000;
+}
+
+td.neurotoy, .neurotoy td{
+  color      : #000;
+  background : #09f;
+}
+
+
+th.comment {
+  background : #666;
+  color : #fff;
+}
+
+

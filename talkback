@@ -1,0 +1,13 @@
+<?
+
+  #  we're using the php wrapper now, so
+  #  we do talkback/1 instead of talkback.php3?contentID=1
+
+  if (! $contentID) {
+    $url_array=explode("/",$REQUEST_URI);
+    $contentID=$url_array[count($url_array)-1];
+  }
+
+  include "hive/talkback.php3";
+
+?>

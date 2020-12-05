@@ -1,0 +1,61 @@
+AddHandler php5-script .php3
+DirectoryIndex index.php3
+
+ErrorDocument 404 /404.php3
+
+Action talkback-wrap /cgi-bin/phpwrap/talkback
+<Files talkback>
+ForceType talkback-wrap
+</Files>
+
+redirect /source ftp://manifestation.com/source
+redirect /launchpad http://www.manifestation.com/resources/
+redirect /openmind http://www.manifestation.com/projects/
+redirect /rants http://www.sabren.com/rants
+redirect /sabren http://www.sabren.com/bio
+redirect /specs http://www.sabren.com/workshop/specs
+redirect /metalog http://www.linkwatcher.com/metalog/
+
+redirect /neurotoys/index.php3 http://www.manifestation.com/resources/
+redirect /neurotoys/eliza.htm http://www.manifestation.com/neurotoys/eliza.php3
+redirect /neurotoys/eliza.html http://www.manifestation.com/neurotoys/eliza.php3
+redirect /neurotoys/nlpintro.htm http://www.manifestation.com/neurotoys/nlpintro.php3
+redirect /neurotoys/nlpintro.html http://www.manifestation.com/neurotoys/nlpintro.php3
+redirect /neurotoys/calibrate.htm http://www.manifestation.com/neurotoys/calibrate.php3
+redirect /neurotoys/calibrate.html http://www.manifestation.com/neurotoys/calibrate.php3
+redirect /neurotoys/swish.htm http://www.manifestation.com/neurotoys/swish.php3
+redirect /neurotoys/swish.html http://www.manifestation.com/neurotoys/swish.php3
+redirect /neurotoys/nlpvac.htm http://www.manifestation.com/neurotoys/nlpvac.php3
+redirect /neurotoys/nlpvac.html http://www.manifestation.com/neurotoys/nlpvac.php3
+redirect /neurotoys/lucid.htm http://www.manifestation.com/neurotoys/vrlucid.php3
+redirect /neurotoys/lucid.html http://www.manifestation.com/neurotoys/vrlucid.php3
+redirect /bookstore http://www.manifestation.com/store
+
+
+redirect /buddha/htb00001.html http://www.manifestation.com/buddha/htb00001.php3
+redirect /buddha/htb00002.html http://www.manifestation.com/buddha/htb00002.php3
+redirect /buddha/htb00003.html http://www.manifestation.com/buddha/htb00003.php3
+redirect /buddha/htb00004.html http://www.manifestation.com/buddha/htb00004.php3
+redirect /buddha/htb00005.html http://www.manifestation.com/buddha/htb00005.php3
+redirect /buddha/htb00006.html http://www.manifestation.com/buddha/htb00006.php3
+redirect /buddha/htb00007.html http://www.manifestation.com/buddha/htb00007.php3
+redirect /buddha/htb00008.html http://www.manifestation.com/buddha/htb00008.php3
+redirect /buddha/htb00009.html http://www.manifestation.com/buddha/htb00009.php3
+redirect /buddha/htb00010.html http://www.manifestation.com/buddha/htb00010.php3
+redirect /buddha/htb00011.html http://www.manifestation.com/buddha/htb00011.php3
+redirect /buddha/htb00012.html http://www.manifestation.com/buddha/htb00012.php3
+redirect /buddha/htb00013.html http://www.manifestation.com/buddha/htb00013.php3
+redirect /buddha/htb00014.html http://www.manifestation.com/buddha/htb00014.php3
+redirect /buddha/htb00015.html http://www.manifestation.com/buddha/htb00015.php3
+redirect /buddha/htb00016.html http://www.manifestation.com/buddha/htb00016.php3
+redirect /buddha/htb00017.html http://www.manifestation.com/buddha/htb00017.php3
+redirect /buddha/htb00018.html http://www.manifestation.com/buddha/htb00018.php3
+redirect /buddha/htb00019.html http://www.manifestation.com/buddha/htb00019.php3
+redirect /buddha/htb00020.html http://www.manifestation.com/buddha/htb00020.php3
+redirect /buddha/htb00021.html http://www.manifestation.com/buddha/htb00021.php3
+
+
+
+
+
+
